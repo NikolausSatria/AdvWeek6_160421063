@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/brandListFragment">
+
+    <fragment
+        android:id="@+id/brandListFragment"
+        android:name="com.example.advweek6_160421063.view.BrandListFragment"
+        android:label="fragment_brand_list"
+        tools:layout="@layout/fragment_brand_list" />
+
+</navigation>
